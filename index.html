@@ -4,23 +4,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Code Quiz!</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
 </head>
-<!-- Start Quiz Button -->
-<div class="start_button"><button>Start Quiz</button></div>
-
-<!-- Information Box -->
-<div class="information_box">
-    <div class="Information_title">
-        <span>Quiz Rules</span>
-        <p>1. You will have 75 seconds to answer the questions. <br>2. Answering a question incorrectly will deduct 10 seconds off your total time.<br>3. Answering questions correctly will score you points. <br>4. You cannot exit the quiz whilst playing.</p>
-    </div>
-</div>
-
-<div class="exit_button"><button>Exit Quiz</button></div>
 
 <body>
+    <!-- Start Button -->
+    <div class="start_button"><button>Start Quiz</button></div>
 
+    <!-- Information Box -->
+    <div class="information_box">
+        <div class="information_title">
+            <span>Quiz Rules</span>
+        </div>
+        <p>1. You will have 75 seconds to answer the questions. <br>2. Answering a question incorrectly will deduct 10 seconds off your total time.<br>3. Answering questions correctly will score you points. <br>4. You cannot exit the quiz whilst playing.</p>
+        <div class="buttons">
+            <div class="exit_button"><button>Exit Quiz</button></div>
+            <div class="continue_button"><button>Continue</button></div>
+        </div>
+    </div>
+
+    <!-- Quiz Box -->
+    <div class="quiz_box">
+        <header>
+            <div class="title">Bootcamp Starter Quiz</div>
+            <div class="title">
+                <div class="timer">
+                    <div class="time_text">Time left</div>
+                    <div class="time_sec">75</div>
+                </div>
+            </div>
+        </header>
+        <section>
+            <div class="question_text">
+                <!-- This will be taken from the Javascript File -->
+            </div>
+            <div class="option_list">
+                <!-- This will be taken from the Javascript File -->
+            </div>
+        </section>
+
+        <!-- Quiz Box Footer -->
+        <footer>
+            <button class="next_button">Next Question</button>
+        </footer>
+    </div>
+
+    <!-- Result Box -->
+    <div class="result_box">
+        <div class="icon">
+            <i class="bi bi-emoji-sunglasses-fill"></i>
+        </div>
+        <class class="complete_text">You have finished the Quiz!</class>
+        <div class="score_text">
+            <!-- taken from JavaScript -->
+        </div>
+        <div class="buttons">
+            <button class="restart">Replay Quiz</button>
+            <button class="quit">Quit Quiz</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="questions.js"></script>
 </body>
 
 </html>
