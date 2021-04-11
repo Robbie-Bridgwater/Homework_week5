@@ -7,7 +7,7 @@
 
 ## Live URL
 
-[Live URL for github page](https://robbie-bridgwater.github.io/Homework_week5/.)
+[Live URL for github page](https://robbie-bridgwater.github.io/code-quiz/)
 
 ## This is what the webpage looks like
 
