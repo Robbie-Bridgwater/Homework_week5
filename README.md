@@ -1,5 +1,5 @@
 # **Code Quiz**
-*A simple quiz app for coding enthusiasts. 
+A simple quiz app for coding enthusiasts. 
 
 ## Contents
 Section | Description
